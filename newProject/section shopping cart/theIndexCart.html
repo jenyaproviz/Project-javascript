@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Shopping Cart</title>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="musician, Anton Proviz, website, vertigo">
+        <meta name="keywords" content="HTML, CSS, javascript, project, musician website, Anton Proviz">
+        <meta name="author" content="Jenya Proviz">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script type="module" src="theProduct.js" ></script>
+        <script type="module" src="theCart.js" ></script>
+        <script type="module" src="theMain.js" ></script>
+
+         <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+  </head>
+
+  <body>
+
+<section class="shoppingCartSection active" id="shoppingCart">
+  <a href="/index.html" class="btn">
+    <i class="fa fa-home"></i>
+    Home
+  </a>  
+  <br/>
+  <br/>
+    <h1 class="shoppingCartTitle">Wellcome to my web store!</h1> 
+    
+  <div class="shopItems">
+    
+<div id="item">
+    <span class="itemTitle" id="picItem1">Lessons</span>
+    <h2 class="itemPrice">the price is 100$</h2>
+    <img class="image" src="https://img.freepik.com/premium-photo/treble-clef-circle-musical-notes-black-background-design-3d-illustration_116124-10456.jpg">
+   
+    <button class="btnAdd" data-name="Lessons" data-price="100">Add to cart</button>
+    
+</div>
+
+<div id="item">
+    <span class="itemTitle" id="picItem2">Guitars</span>
+    <h2 class="itemPrice">the price is 200$</h2>
+    <img class="image" src="https://img.freepik.com/free-photo/crop-head-electric-guitar_23-2147781776.jpg?w=740&t=st=1682431545~exp=1682432145~hmac=498487802c1221c8c1257c33b6e1156043c2053235d7ab479186d09b209d3d26">
+    
+    <button class="btnAdd" data-name="Guitars" data-price="200" >Add to cart</button>
+
+</div>
+
+<div id="item">
+    <span class="itemTitle" id="picItem3">Tracks and Albums</span>
+    <h2 class="itemPrice">the price is 300$</h2>
+    <img class="image" src="https://img.freepik.com/premium-photo/drum-sticks-hitting-snare-drum-with-splashing-water-black-background-studio-lighting-black-white-photo-motion_169016-9580.jpg?w=1060">
+   
+    <button class="btnAdd" data-name="Tracks and Albums" data-price="300">Add to cart</button>
+    
+</div>
+
+<div id="item">
+    <span class="itemTitle" id="picItem4">Accessories</span>
+    <h2 class="itemPrice">the price is 10$</h2>
+    <img class="image" src="https://img.freepik.com/free-photo/analog-turntable-spinning-retro-soundtrack-nightclub-generated-by-ai_188544-11066.jpg?w=1060&t=st=1682431496~exp=1682432096~hmac=047236c057442690ed39ac26d22e21685df0c731f34f4320c14cd2c5cc21ea72">
+   
+    <button class="btnAdd" data-name="Accessories" data-price="10">Add to cart</button>
+
+</div>
+
+  </div> 
+   
+  <div id="cart">
+    <h1 class="shoppingCartTitle">Cart</h1>
+    <ul id="cart-items"></ul>
+    <p>Total:    $   <span id="cart-total">0</span></p>
+    <button id="clearCart">Proceed Checkout</button>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="musician, Anton Proviz, website, vertigo">
+        <meta name="keywords" content="HTML, CSS, javascript, project, musician website, Anton Proviz">
+        <meta name="author" content="Jenya Proviz">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Musician website </title>
+        <script type="text/javascript" src="script.js" defer></script>
+       
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    </head>
+
+    <body>
+        
+<!-- navigation bar section -->
+<nav class="navBar">
+    <ul class="linkGroup">
+        <li class="link active"><a href="#">home</a></li>
+        <li class="link"><a href="#">about</a></li>
+        <li class="link"><a href="#">projects</a></li>
+        <li class="link"><a href="#">contact</a></li>
+        <li class="link"><a href="section shopping cart/theIndexCart.html">shopping cart</a></li>
+    </ul>
+</nav>
+
+<!-- home section -->
+    <section class="homeSection active" id="home">
+<h1 class="heroHeading">Hello, wellcome to my world</h1>
+<img src="https://www.seekpng.com/png/full/68-684347_electric-guitar-drawing-png-acoustic-guitar-drawing.png" 
+class="homeImg" alt="">
+    </section>
+
+    <!-- about section -->
+<section class="aboutSection active" >
+    <h1 class="aboutTitle">Something about me...</h1>
+<div class="about">
+    <div class="aboutImgContainer">
+        <img src="https://www.seekpng.com/png/full/946-9465403_full-size-of-how-to-make-comic-book.png" class="aboutImg" alt="">
+    </div>
+    <p class="aboutInfo">
+        Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.”
+        As Cicero would put it, “Um, not so fast.”
+        The placeholder text, beginning with the line “Lorem ipsum dolor sit amet, consectetur adipiscing elit”, looks like Latin because in its youth, centuries ago, it was Latin.
+        Richard McClintock, a Latin scholar from Hampden-Sydney College, is credited with discovering the source behind the ubiquitous filler text. In seeing a sample of lorem ipsum, his interest was piqued by consectetur—a genuine, albeit rare, Latin word. Consulting a Latin dictionary led McClintock to a passage from De Finibus Bonorum et Malorum (“On the Extremes of Good and Evil”), a first-century B.C. text from the Roman philosopher Cicero.
+        In particular, the garbled words of lorem ipsum bear an unmistakable resemblance to sections of Cicero's work, with the most notable passage excerpted below:
+        “Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.”
+        English translation by Harris Rackham reads.
+    </p>
+</div>
+
+<!-- tip of the day -->
+<div class="advice" id="adviceSection">
+    <h2>Get advice</h2>
+    <div id="screenAdvice">
+    </div>
+    <button id="btnAdvice">Get Advice</button>
+</div>
+</section>
+
+<!-- projects section -->
+<section class="projectsSection active" id="projects">
+<h1 class="projectsTitle">Some of my projects...</h1>
+<div id="iframes-container"></div>
+</section>
+
+<!-- contact section -->
+<section class="contactSection active" id="contact">
+<form class="contactForm">
+    <input type="text" name="name" id="fname" autocomplete="off" placeholder="name">
+    <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+    <input type="number" name="phone" id="phone" autocomplete="off" placeholder="phone">
+    <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+   <button type="submit" class="submitBtn">contact</button>
+ 
+</form>
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27064.512108934927!2d34.76369970282373!3d32.013379647385946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1502b4bb0c33bf39%3A0xfbdd79640525e72d!2sHolon!5e0!3m2!1sen!2sil!4v1679657720300!5m2!1sen!2sil" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</section>
+
+<!--Shopping Cart section-->
+<!--folder - section shopping cart-->
+
+<!-- footer -->
+<footer class="footer active">
+<div class="copy">2023 Jenya Proviz</div>
+
+    <div class="bottomLinks">
+        <span>Where to find me</span>
+        <div class="btmLinks">
+            <a href="https://www.facebook.com/allinstrumental/"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.youtube.com/channel/UCwWWgUk0UbECbJA24RtRFEg"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/antonproviz/"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/ToxaPr"><i class="fab fa-twitter"></i></a>
+            <a href="https://soundcloud.com/antonproviz"><i class="fab fa-soundcloud"></i></a>
+            <a href="https://myspace.com/provizanton"><i class="fab fa-soundcloud"></i></a>
+            <a href="https://music.apple.com/us/album/all-instrumental/839601439"><i class="fab fa-apple"></i></a>
+        </div>
+        
+</div>
+
+</footer>
+
+    </body>
+</html>
